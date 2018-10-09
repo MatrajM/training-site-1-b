@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', sans-serif;   
+}
+.jumbotron {
+    background: url("images/bg.png") center/cover;
+    width: 100%;
+    height: 100vh;  
+}
+.navigation {
+    list-style: none;
+    margin-top: 10px;
+    margin-right: -150px;
+    height: 1px;
+    line-height: 15px; 
+}
+.logo {
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    margin-left: -150px; 
+}
+.logo-style-2 {
+    font-weight: 300;
+}
+.logo-style-1 {
+    font-weight: 700; 
+}
+.nav-style {
+    color: white;
+}
+.contact-btn {
+    border: solid 1px white;
+    border-radius: 25px;
+    line-height: 30px; 
+}
+.flex-nav-item {
+    padding:0 30px;
+    flex-wrap: nowrap;
+    text-align: center;
+    font-size: 15px; 
+}
+.header-promo {
+    color: white;
+    p{
+        margin-top:20px;
+        text-align: center;
+        width:500px;
+    }   
+}
+    .header-promo h1 {
+      font-size: 35px;
+      width: 100%; }
+    .header-promo p {
+      opacity: 0.4; 
+}
+.header-buttons{
+    padding:20px;
+}
+.header-btn-1 {
+    background-color: white;
+    color:#e06a00;
+    border-radius: 25px;
+    border-color: white;
+    width: 180px;
+    padding:10px;
+}
+.header-btn-2 {
+    color:white;
+    border-radius: 25px;
+    border-color: white;
+    width: 180px;
+    padding:10px;
+}
+.scroll{
+    height: 500px;
+}
