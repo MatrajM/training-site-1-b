@@ -74,3 +74,27 @@ body {
 .scroll{
     height: 500px;
 }
+.icon-section{
+    height: 50vh;
+    margin-top:10vh;
+    text-align: center;
+    h3{
+        font-size: 30px;
+        background: linear-gradient(45deg, #c10029, #e06a00);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    p{
+        font-size: 15px;
+    }
+    .icon-btn-1 {
+        background-color:#4964a9;
+        color:white;
+        border-radius: 25px;
+        width: 180px;
+        padding:10px;
+        margin-top:5vh;
+    }
+    .icon-btn-1:hover {
+        transform: scale(1.1); }
+}
