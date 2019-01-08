@@ -95,4 +95,51 @@ body {
   .icon-section .icon-btn-1:hover {
     transform: scale(1.1); }
 
+.drone-section {
+  height: 60vh;
+  text-align: left;
+  background-image: url("images/drone-back.png");
+  background-repeat: no-repeat;
+  background-position: right; }
+  .drone-section h1 {
+    font-size: 50px;
+    background: linear-gradient(45deg, #c10029, #e06a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .drone-section p {
+    font-size: 20px;
+    color: #666; }
+  .drone-section ol {
+    display: flex;
+    height: 40vh;
+    list-style: none;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    max-width: 25vw;
+    counter-reset: numList; }
+  .drone-section ol li {
+    float: left;
+    position: relative;
+    font-size: 16px;
+    padding: 25px;
+    color: #666;
+    margin-right: 18px; }
+  .drone-section ol li:before {
+    counter-increment: numList;
+    content: counter(numList);
+    float: left;
+    position: absolute;
+    left: -30px;
+    font: bold 30px sans-serif;
+    text-align: center;
+    color: black;
+    line-height: 45px;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border: 2px solid #666;
+    border-radius: 50%;
+    -moz-border-radius: 999px;
+    border-radius: 999px; }
+
 /*# sourceMappingURL=style.css.map */
