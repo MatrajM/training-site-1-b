@@ -142,4 +142,39 @@ body {
     -moz-border-radius: 999px;
     border-radius: 999px; }
 
+.portfollio-section .vid-top {
+  background-image: url("images/foto-top.png");
+  background-repeat: no-repeat; }
+.portfollio-section .vid-bot {
+  background-image: url("images/foto-bottom.png");
+  background-repeat: no-repeat; }
+.portfollio-section .port-content-top {
+  height: 65vh;
+  text-align: left; }
+  .portfollio-section .port-content-top h2 {
+    margin-left: 150px;
+    margin-top: 150px;
+    font-size: 50px;
+    background: linear-gradient(45deg, #c10029, #e06a00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .portfollio-section .port-content-top p {
+    width: 30vw;
+    margin-left: 150px; }
+  .portfollio-section .port-content-top .port-btn-1 {
+    background-color: #4964a9;
+    color: white;
+    border-radius: 25px;
+    width: 180px;
+    padding: 10px;
+    margin-top: 5vh;
+    margin-left: 150px; }
+  .portfollio-section .port-content-top .port-btn-1:hover {
+    transform: scale(1.1); }
+.portfollio-section .play-vid {
+  margin-left: 400px;
+  margin-top: 250px; }
+.portfollio-section .play-vid:hover {
+  transform: scale(1.1); }
+
 /*# sourceMappingURL=style.css.map */
