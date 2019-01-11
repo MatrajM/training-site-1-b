@@ -177,4 +177,45 @@ body {
 .portfollio-section .play-vid:hover {
   transform: scale(1.1); }
 
+.newsletter-section {
+  background-image: url("images/news-bg.png");
+  background-repeat: no-repeat;
+  height: 50vh;
+  text-align: center;
+  padding-top: 120px; }
+  .newsletter-section h1 {
+    color: white;
+    font-size: 50px;
+    padding: 30px; }
+  .newsletter-section .email-input {
+    width: 250px;
+    margin-left: -50px;
+    height: 48px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.3);
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    padding: 5px 55px;
+    color: white; }
+  .newsletter-section .send-btn {
+    width: 140px;
+    height: 48px;
+    margin: -44px;
+    border-radius: 25px;
+    background-image: linear-gradient(135deg, #e06a00 50%, transparent 50%);
+    background-position: 100% 0;
+    background-size: 300%;
+    color: #e06a00;
+    font-size: 20px;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    transition: 0.4s;
+    cursor: pointer; }
+  .newsletter-section .send-btn:hover {
+    background-position: 0 100%;
+    color: white;
+    border: 1px solid white; }
+
 /*# sourceMappingURL=style.css.map */
