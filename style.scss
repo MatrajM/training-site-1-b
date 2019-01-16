@@ -273,6 +273,12 @@ body {
     }
 }
 @media (max-width: 768px) {
+    .scroll{
+        height: 250px;
+    }
+    .logo{
+        margin-left: -90px;
+    }
     .navigation{
         display: none;
     }
