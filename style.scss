@@ -13,6 +13,15 @@ body {
     height: 1px;
     line-height: 15px; 
 }
+.navigation-res{
+    display: none;
+    .btn-menu-res{
+        background-color: white;
+        color:#e06a00;
+        border-color: white;
+        width: 100px;
+    }
+}
 .logo {
     font-size: 45px;
     color: white;
@@ -159,10 +168,16 @@ body {
     .vid-top{
         background-image: url("images/foto-top.png");
         background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .vid-bot{
         background-image: url("images/foto-bottom.png");
         background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .port-content-top{
         height:65vh;
@@ -191,10 +206,7 @@ body {
         .port-btn-1:hover {
             transform: scale(1.1); }
     }
-    .play-vid{
-        margin-left:400px;
-        margin-top:250px;
-    }
+    
     .play-vid:hover {
         transform: scale(1.1); }
 }
@@ -259,4 +271,93 @@ body {
     color: grey;
     
     }
+}
+@media (max-width: 768px) {
+    .navigation{
+        display: none;
+    }
+    .navigation-res{
+        display: block;
+        float: right;
+    }
+    .icon-section{
+        height: 80vh;
+    }
+    .drone-section{
+        height: 80vh;
+        background-image: none;
+        h1{
+            font-size: 35px;
+        }
+        p{
+            font-size: 15px;
+        }
+        ol{
+            display: flex;
+            list-style: none;
+            flex-flow: column wrap;
+            max-width: 50vw;
+            counter-reset: numList;
+        }
+        ol li {
+            font-size: 12px;
+            padding:15px;
+            color:#666;
+            margin-right: 10px; 
+        }
+        ol li:before {
+            counter-increment: numList;
+            content: counter(numList);
+            
+            float: left;
+            position: absolute;
+            left: -20px;
+            
+            font: bold 12px sans-serif;
+            text-align: center;
+            color: black;
+            line-height: 22px;
+            
+            width: 25px; height: 25px;
+            background: white;
+            border:2px solid #666;
+            border-radius: 50%;
+            
+            -moz-border-radius: 999px;
+            border-radius: 999px
+        }
+    }
+    .portfollio-section{
+
+        .vid-top{
+            background-size: 100% 100%; 
+        }
+        .vid-bot{
+            background-size: 100% 100%;
+        }
+        .port-content-top{
+            h2{
+                margin-left: 15px;
+                margin-top: 30px;
+                font-size: 25px; 
+            }
+            p{
+                width:30vw;
+                margin-left:15px;
+                font-size: 15px;
+            }
+            .port-btn-1 {
+                margin-left:15px;
+            }
+            .port-btn-1:hover {
+                transform: scale(1.1); }
+        }
+        .play-vid:hover {
+            transform: scale(1.1); }
+    }
+    .newsletter-section{
+        height:60vh;
+        padding-top: 100px;
+    }
+    
 }
